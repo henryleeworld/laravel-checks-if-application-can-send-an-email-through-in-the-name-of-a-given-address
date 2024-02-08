@@ -1,4 +1,4 @@
-# Laravel 9 檢查應用程式是否可以通過提供的地址名稱發送電子郵件
+# Laravel 10 檢查應用程式是否可以通過提供的地址名稱發送電子郵件
 
 引入 dietercoopman 的 mailspfchecker 套件來擴增檢查應用程式是否可以通過提供的地址名稱發送電子郵件，SPF（寄件者政策架構）是標準的電子郵件驗證方法，有助於防範網域遭到假冒，以及避免收件伺服器將外寄郵件標示為垃圾郵件。SPF 會指定哪些郵件伺服器可以為您的網域傳送電子郵件。收件伺服器在收到看似來自您網域的郵件時，會使用 SPF 驗證該郵件是否確實是由您授權的伺服器傳送。
 
@@ -12,7 +12,7 @@ $ git clone
 ```sh
 $ composer install
 ```
-- 產⽣ Laravel 要使用的一組 32 字元長度的隨機字串 APP_KEY 並存在 .env 內。
+- 產生 Laravel 要使用的一組 32 字元長度的隨機字串 APP_KEY 並存在 .env 內。
 ```sh
 $ php artisan key:generate
 ```
@@ -22,5 +22,5 @@ $ php artisan key:generate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/kkNAzsQ.png)
+![](https://i.imgur.com/wg5IGYs.png)
 > TXT 紀錄是一種「網域名稱系統」（DNS）紀錄，可將文字資訊提供給網域以外的來源，可以將這些紀錄新增至網域設定
